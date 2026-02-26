@@ -26,11 +26,5 @@ Behavior:
 ### `script-command.template.sh`
 
 Raycast starter template script from the Script Commands docs.
-
-What it does:
-
-- Provides required Raycast metadata fields.
-- Includes optional metadata examples.
-- Prints `Hello from My First Script` as a starter output.
-
-Use this as a base when creating new script commands.
+- Duplicate this file and remove ".template." from the filename to get started.
+- See full documentation here: https://github.com/raycast/script-commands
