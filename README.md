@@ -23,6 +23,22 @@ Behavior:
 - Creates the destination folder if needed.
 - Copies from whichever card(s) are available.
 
+### `chmod +x fujifilm-delete.sh`
+
+**Raycast title:** `Delete Camera Photos`
+
+Deletes all files/folders inside Fujifilm photo folders from whichever SD cards are currently mounted:
+
+- `/Volumes/SanDisk_1/DCIM/100_FUJI`
+- `/Volumes/SanDisk_2/DCIM/100_FUJI`
+
+Behavior:
+
+- Fails with an error if neither SD card path exists.
+- Shows a confirmation dialog before deleting.
+- Deletes only folder contents (keeps the `100_FUJI` folder itself).
+- Handles one missing card and processes the inserted one.
+
 ### `script-command.template.sh`
 
 Raycast starter template script from the Script Commands docs.
