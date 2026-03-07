@@ -35,9 +35,12 @@ Deletes all files/folders inside Fujifilm photo folders from whichever SD cards 
 Behavior:
 
 - Fails with an error if neither SD card path exists.
-- Shows a confirmation dialog before deleting.
+- Stays in Raycast (no macOS popup).
+- Requires typing `DELETE` in the Raycast argument field to confirm deletion.
 - Deletes only folder contents (keeps the `100_FUJI` folder itself).
 - Handles one missing card and processes the inserted one.
+- Shows how many image files are found and deleted per inserted card.
+- Shows a final success summary with total image count deleted.
 
 ### `script-command.template.sh`
 
