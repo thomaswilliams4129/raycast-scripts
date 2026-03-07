@@ -1,7 +1,7 @@
 #!/bin/bash
 # @raycast.schemaVersion 1
 # @raycast.title Copy Camera Photos
-# @raycast.mode fullOutput
+# @raycast.mode silent
 # @raycast.icon 📷
 
 SOURCE1="/Volumes/SanDisk_1/DCIM/100_FUJI"

@@ -1,7 +1,7 @@
 #!/bin/bash
 # @raycast.schemaVersion 1
 # @raycast.title Delete Camera Photos
-# @raycast.mode fullOutput
+# @raycast.mode silent
 # @raycast.icon 🗑️
 # @raycast.argument1 { "type": "text", "placeholder": "Type DELETE to confirm" }
 

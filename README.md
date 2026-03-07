@@ -42,6 +42,21 @@ Behavior:
 - Shows how many image files are found and deleted per inserted card.
 - Shows a final success summary with total image count deleted.
 
+### `chmod +x fujifilm-eject.sh`
+
+**Raycast title:** `Eject Camera SD Cards`
+
+Ejects whichever of these SD cards are currently mounted:
+
+- `/Volumes/SanDisk_1`
+- `/Volumes/SanDisk_2`
+
+Behavior:
+
+- Fails with an error if neither SD card is mounted.
+- Ejects one or both cards depending on what is inserted.
+- Reports per-card success/failure and a final summary.
+
 ### `script-command.template.sh`
 
 Raycast starter template script from the Script Commands docs.
