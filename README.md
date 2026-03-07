@@ -57,6 +57,23 @@ Behavior:
 - Ejects one or both cards depending on what is inserted.
 - Reports per-card success/failure and a final summary.
 
+### `chmod +x fujifilm-download-delete-eject.sh`
+
+**Raycast title:** `Download Delete Eject`
+
+Runs the full Fujifilm workflow in this order:
+
+1. Download photos
+2. Delete photos from card(s)
+3. Eject card(s)
+
+Behavior:
+
+- Stays in Raycast and requires typing `RUN` in the argument field.
+- Calls the existing scripts in sequence.
+- Stops immediately if download or delete fails.
+- Reports step-by-step status and final success/failure.
+
 ### `script-command.template.sh`
 
 Raycast starter template script from the Script Commands docs.
